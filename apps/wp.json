@@ -1,0 +1,12 @@
+{
+  "receiptVersion": "v1",
+  "slugs": ["wp", "wordpress"],
+  "name": "WordPress",
+  "type": "app",
+  "description": "WordPress is a web content management system. It was originally created as a tool to publish blogs but has evolved to support publishing other web content, including more traditional websites, mailing lists and Internet forum, media galleries, membership sites, learning management systems and online stores.",
+  "launchScript": [
+    "os mktplace install -s wp -n -f \"locale:en_US\" -f \"adminUsername:%randomUsername%\" -f \"adminPassword:%randomPassword%\" -f \"adminMailAddress:%randomMail%\""
+  ],
+  "estimatedSizeBytes": 100000000,
+  "avatarUrl": "https://goinfinite.net/assets/os/marketplace/wordpress/wp-avatar.jpg"
+}
