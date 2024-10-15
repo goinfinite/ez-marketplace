@@ -1,0 +1,13 @@
+manifestVersion: v1
+slugs:
+  - laravel
+name: Laravel
+type: framework
+description: Laravel is a web application framework with expressive, elegant syntax. We've already laid the foundation — freeing you to create without sweating the small things.
+registryImageAddress: docker.io/goinfinite/os:latest
+launchScript:
+  - os mktplace install -s laravel
+minimumCpuMillicores: 250
+minimumMemoryBytes: 262144000
+estimatedSizeBytes: 524288000
+avatarUrl: https://raw.githubusercontent.com/goinfinite/ez-marketplace/refs/heads/main/framework/laravel/avatar.jpg
