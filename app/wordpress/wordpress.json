@@ -6,10 +6,10 @@
   "description": "WordPress is a web content management system. It was originally created as a tool to publish blogs but has evolved to support publishing other web content, including more traditional websites, mailing lists and Internet forum, media galleries, membership sites, learning management systems and online stores.",
   "registryImageAddress": "docker.io/goinfinite/os:latest",
   "launchScript": [
-    "os mktplace install -s wp -n -f \"locale:en_US\" -f \"adminUsername:%randomUsername%\" -f \"adminPassword:%randomPassword%\" -f \"adminMailAddress:%randomMail%\""
+    "os mktplace install -s wp -f \"locale:en_US\" -f \"adminUsername:%randomUsername%\" -f \"adminPassword:%randomPassword%\" -f \"adminMailAddress:%randomMail%\""
   ],
   "minimumCpuMillicores": 500,
   "minimumMemoryBytes": 524288000,
   "estimatedSizeBytes": 1048576000,
-  "avatarUrl": "https://raw.githubusercontent.com/goinfinite/ez-marketplace/refs/heads/main/apps/wordpress/avatar.jpg"
+  "avatarUrl": "https://raw.githubusercontent.com/goinfinite/ez-marketplace/refs/heads/main/app/wordpress/avatar.jpg"
 }
