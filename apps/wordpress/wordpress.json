@@ -11,5 +11,5 @@
   "minimumCpuMillicores": 500,
   "minimumMemoryBytes": 524288000,
   "estimatedSizeBytes": 1048576000,
-  "avatarUrl": "https://goinfinite.net/assets/os/marketplace/wordpress/wp-avatar.jpg"
+  "avatarUrl": "https://raw.githubusercontent.com/goinfinite/ez-marketplace/refs/heads/main/apps/wordpress/avatar.jpg"
 }
