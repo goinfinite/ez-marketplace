@@ -1,0 +1,15 @@
+{
+  "manifestVersion": "v1",
+  "slugs": ["joomla"],
+  "name": "Joomla",
+  "type": "app",
+  "description": "Joomla! is a free and open-source content management system (CMS) for publishing web content. It is built on a model-view-controller web application framework that can be used independently of the CMS that allows you to build powerful online applications.",
+  "registryImageAddress": "docker.io/goinfinite/os:latest",
+  "launchScript": [
+    "os mktplace install -s joomla -f \"adminMailAddress:%randomMail%\""
+  ],
+  "minimumCpuMillicores": 500,
+  "minimumMemoryBytes": 524288000,
+  "estimatedSizeBytes": 1048576000,
+  "avatarUrl": "https://raw.githubusercontent.com/goinfinite/ez-marketplace/refs/heads/main/app/joomla/avatar.jpg"
+}
