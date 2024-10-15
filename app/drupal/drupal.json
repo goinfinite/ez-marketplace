@@ -1,0 +1,13 @@
+{
+  "manifestVersion": "v1",
+  "slugs": ["drupal"],
+  "name": "Drupal",
+  "type": "app",
+  "description": "Drupal is an open source platform for building amazing digital experiences. It's made by a dedicated community. Anyone can use it, and it will always be free.",
+  "registryImageAddress": "docker.io/goinfinite/os:latest",
+  "launchScript": ["os mktplace install -s drupal"],
+  "minimumCpuMillicores": 500,
+  "minimumMemoryBytes": 524288000,
+  "estimatedSizeBytes": 1048576000,
+  "avatarUrl": "https://raw.githubusercontent.com/goinfinite/ez-marketplace/refs/heads/main/app/drupal/avatar.jpg"
+}
