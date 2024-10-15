@@ -8,6 +8,8 @@
   "launchScript": [
     "os mktplace install -s wp -n -f \"locale:en_US\" -f \"adminUsername:%randomUsername%\" -f \"adminPassword:%randomPassword%\" -f \"adminMailAddress:%randomMail%\""
   ],
-  "estimatedSizeBytes": 100000000,
+  "minimumCpuMillicores": 500,
+  "minimumMemoryBytes": 524288000,
+  "estimatedSizeBytes": 1048576000,
   "avatarUrl": "https://goinfinite.net/assets/os/marketplace/wordpress/wp-avatar.jpg"
 }
