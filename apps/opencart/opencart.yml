@@ -1,0 +1,14 @@
+manifestVersion: v1
+slugs:
+  - opencart
+  - oc
+name: OpenCart
+type: app
+description: OpenCart is free open source e-commerce platform for online merchants. OpenCart provides a professional and reliable foundation from which to build a successful online store.
+registryImageAddress: docker.io/goinfinite/os:latest
+launchScript:
+  - 'os mktplace install -s oc -n -f "adminUsername:%randomUsername%" -f "adminPassword:%randomPassword%" -f "adminMailAddress:%randomMail%"'
+minimumCpuMillicores: 500
+minimumMemoryBytes: 524288000
+estimatedSizeBytes: 1048576000
+avatarUrl: https://raw.githubusercontent.com/goinfinite/ez-marketplace/refs/heads/main/apps/opencart/avatar.jpg
