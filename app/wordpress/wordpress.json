@@ -1,5 +1,6 @@
 {
   "manifestVersion": "v1",
+  "id": 1,
   "slugs": ["wp", "wordpress"],
   "name": "WordPress",
   "type": "app",
