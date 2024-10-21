@@ -1,0 +1,15 @@
+{
+  "manifestVersion": "v1",
+  "slugs": ["openmage", "magento1"],
+  "name": "OpenMage",
+  "type": "app",
+  "description": "OpenMage allows merchants already using an e-commerce site under Magento 1 to continue using a secure and stable Magento platform while remaining PCI compliant.",
+  "registryImageAddress": "docker.io/goinfinite/os:latest",
+  "launchScript": [
+    "os mktplace install -s openmage -f \"locale:en_US\" -f \"timezone:America/Los_Angeles\" -f \"adminUsername:%randomUsername%\" -f \"currency:USD\" -f \"adminUsername:%randomUsername%\" -f \"adminPassword:%randomPassword%\" -f \"adminMailAddress:%randomMail%\" -f \"adminFirstName:Admin\" -f \"adminLastName:Infinite\""
+  ],
+  "minimumCpuMillicores": 1000,
+  "minimumMemoryBytes": 2147483648,
+  "estimatedSizeBytes": 2147483648,
+  "avatarUrl": "https://raw.githubusercontent.com/goinfinite/ez-marketplace/refs/heads/main/app/openmage/avatar.jpg"
+}
