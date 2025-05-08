@@ -9,5 +9,5 @@
   "minimumCpuMillicores": 500,
   "minimumMemoryBytes": 524288000,
   "estimatedSizeBytes": 1048576000,
-  "avatarUrl": "https://raw.githubusercontent.com/goinfinite/ez-marketplace/refs/heads/main/app/drupal/avatar.jpg"
+  "avatarUrl": "https://goinfinite.github.io/os-marketplace/app/drupal/assets/avatar.jpg"
 }

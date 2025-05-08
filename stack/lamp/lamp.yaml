@@ -11,4 +11,4 @@ launchScript:
 minimumCpuMillicores: 500
 minimumMemoryBytes: 524288000
 estimatedSizeBytes: 524288000
-avatarUrl: https://raw.githubusercontent.com/goinfinite/ez-marketplace/refs/heads/main/stack/lamp/avatar.jpg
+avatarUrl: https://goinfinite.github.io/os-marketplace/stack/lamp/assets/avatar.jpg
