@@ -11,5 +11,5 @@
   "minimumCpuMillicores": 1000,
   "minimumMemoryBytes": 2147483648,
   "estimatedSizeBytes": 2147483648,
-  "avatarUrl": "https://raw.githubusercontent.com/goinfinite/ez-marketplace/refs/heads/main/app/openmage/avatar.jpg"
+  "assets/avatarUrl": "https://goinfinite.github.io/os-marketplace/app/openmage/assets/avatar.jpg"
 }
