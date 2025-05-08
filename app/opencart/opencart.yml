@@ -11,4 +11,4 @@ launchScript:
 minimumCpuMillicores: 500
 minimumMemoryBytes: 524288000
 estimatedSizeBytes: 1048576000
-assets/avatarUrl: https://goinfinite.github.io/os-marketplace/app/opencart/assets/avatar.jpg
+avatarUrl: https://goinfinite.github.io/os-marketplace/app/opencart/assets/avatar.jpg
