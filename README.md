@@ -49,4 +49,4 @@ The avatars are images that represent the catalog item in the Infinite Ez market
 We recommend using [Pixlr Express](https://pixlr.com/express/) to create or edit images for the marketplace. The file should be named `avatar.jpg` and have a resolution of 720x720 pixels.
 
 > [!TIP]
-> If you're creating a catalog item which already exists in the Infinite Ez marketplace, you can use the existing avatar image from the [Infinite Ez Marketplace repository](https://github.com/goinfinite/os-marketplace).
+> If you're creating a catalog item which already exists in the Infinite OS marketplace, you can use the existing avatar image from the [Infinite OS Marketplace repository](https://github.com/goinfinite/os-marketplace).
