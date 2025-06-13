@@ -10,4 +10,4 @@ launchScript:
 minimumCpuMillicores: 250
 minimumMemoryBytes: 262144000
 estimatedSizeBytes: 524288000
-avatarUrl: https://raw.githubusercontent.com/goinfinite/ez-marketplace/refs/heads/main/framework/laravel/avatar.jpg
+avatarUrl: https://goinfinite.github.io/os-marketplace/framework/laravel/assets/avatar.jpg

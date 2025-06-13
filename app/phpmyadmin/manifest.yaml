@@ -1,0 +1,14 @@
+manifestVersion: v1
+slugs:
+  - phpmyadmin
+  - pma
+name: phpMyAdmin
+type: app
+description: phpMyAdmin is a free and open-source administration tool for MySQL and MariaDB, allowing users to manage databases, tables, columns, relations, indexes, users, permissions, and more through a web interface.
+registryImageAddress: docker.io/goinfinite/os:latest
+launchScript:
+  - os mktplace install -s phpmyadmin
+minimumCpuMillicores: 500
+minimumMemoryBytes: 536870912
+estimatedSizeBytes: 253755392
+avatarUrl: https://goinfinite.github.io/os-marketplace/app/phpmyadmin/assets/avatar.jpg

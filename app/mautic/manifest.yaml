@@ -1,0 +1,13 @@
+manifestVersion: v1
+slugs:
+  - mautic
+name: Mautic
+type: app
+description: Mautic is an open-source marketing automation platform that helps businesses manage their marketing campaigns, track customer interactions, and automate various marketing tasks.
+registryImageAddress: docker.io/goinfinite/os:latest
+launchScript:
+  - os mktplace install -s mautic -f "adminUsername:%randomUsername%" -f "adminPassword:%randomPassword%" -f "adminFirstName:Infinite" -f "adminLastName:OS" -f "adminEmail:%randomMail%"
+minimumCpuMillicores: 1000
+minimumMemoryBytes: 2147483648
+estimatedSizeBytes: 821133312
+avatarUrl: https://goinfinite.github.io/os-marketplace/app/mautic/assets/avatar.jpg
