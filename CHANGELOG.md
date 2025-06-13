@@ -3,6 +3,7 @@
 ## 2025/06/13
 
 ```
+feat: add n8n
 feat: add passbolt
 feat: add moodle
 feat: add mautic

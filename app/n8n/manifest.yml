@@ -1,0 +1,14 @@
+manifestVersion: v1
+slugs:
+  - n8n
+  - n8n-io
+name: n8n
+type: app
+description: n8n is a workflow automation platform that gives technical teams the flexibility of code with the speed of no-code. With 400+ integrations, native AI capabilities, and a fair-code license, n8n lets you build powerful automations while maintaining full control over your data and deployments.
+registryImageAddress: docker.io/goinfinite/os:latest
+launchScript:
+  - os mktplace install --slug n8n
+minimumCpuMillicores: 1000
+minimumMemoryBytes: 2147483648
+estimatedSizeBytes: 828403472
+avatarUrl: https://goinfinite.github.io/os-marketplace/app/n8n/assets/avatar.jpg
