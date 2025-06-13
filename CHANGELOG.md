@@ -3,6 +3,7 @@
 ## 2025/06/13
 
 ```
+feat: add moodle
 feat: add mautic
 ```
 
