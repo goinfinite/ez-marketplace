@@ -1,0 +1,13 @@
+manifestVersion: v1
+slugs:
+  - moodle
+name: Moodle
+type: app
+description: Moodle is an open-source online learning platform, built in PHP, designed for creating and managing virtual learning environments.
+registryImageAddress: docker.io/goinfinite/os:latest
+launchScript:
+  - os mktplace install -s moodle -f 'adminUsername:%randomUsername%' -f 'adminPassword:%randomPassword%' -f 'adminEmail:%randomMail%' -f 'siteFullName:Infinite OS' -f 'siteShortName:Infinite'
+minimumCpuMillicores: 1000
+minimumMemoryBytes: 2147483648
+estimatedSizeBytes: 372349285
+avatarUrl: https://goinfinite.github.io/os-marketplace/app/moodle/assets/avatar.png
