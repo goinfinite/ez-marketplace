@@ -1,0 +1,13 @@
+manifestVersion: v1
+slugs:
+  - passbolt
+name: passbolt
+type: app
+description: Passbolt is an open source credential platform for modern teams. A versatile, battle-tested solution to manage and collaborate on passwords, accesses, and secrets. All in one.
+registryImageAddress: docker.io/goinfinite/os:latest
+launchScript:
+  - os mktplace install --slug passbolt --data-fields 'adminFirstName:Infinite' --data-fields 'adminLastName:OS' --data-fields 'adminMailAddress:%randomMail%' --data-fields 'smtpFrom:%randomMail%' --data-fields 'smtpHost:mail.example.com' --data-fields 'smtpPort:587' --data-fields 'smtpUsername:%randomMail%' --data-fields 'smtpPassword:%randomPassword%'
+minimumCpuMillicores: 500
+minimumMemoryBytes: 536870912
+estimatedSizeBytes: 372349285
+avatarUrl: https://goinfinite.github.io/os-marketplace/app/passbolt/assets/avatar.jpg
