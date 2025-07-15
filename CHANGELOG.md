@@ -1,5 +1,11 @@
 # CHANGELOG
 
+## 2025/07/15
+
+```
+feat: add uptime kuma
+```
+
 ## 2025/06/13
 
 ```
