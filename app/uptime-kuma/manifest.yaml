@@ -1,0 +1,14 @@
+manifestVersion: v1
+slugs:
+  - kuma
+  - uptime-kuma
+name: Uptime Kuma
+type: app
+description: Uptime Kuma is a self-hosted status monitoring solution. It provides a user-friendly interface to monitor the uptime of your services, websites, and applications. It supports various notification methods and can be easily deployed on your own server.
+registryImageAddress: docker.io/goinfinite/os:latest
+launchScript:
+  - os mktplace install --slug uptime-kuma
+minimumCpuMillicores: 500
+minimumMemoryBytes: 536870912
+estimatedSizeBytes: 238026752
+avatarUrl: https://goinfinite.github.io/os-marketplace/app/uptime-kuma/assets/avatar.png
