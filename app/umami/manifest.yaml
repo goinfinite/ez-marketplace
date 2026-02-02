@@ -1,0 +1,13 @@
+manifestVersion: v1
+slugs:
+  - umami
+name: Umami
+type: app
+description: Umami is a self-hosted analytics platform. It provides a user-friendly interface to monitor your website traffic.
+registryImageAddress: docker.io/goinfinite/os:latest
+launchScript:
+  - os mktplace install --slug umami
+minimumCpuMillicores: 1000
+minimumMemoryBytes: 2147483648
+estimatedSizeBytes: 2160159368
+avatarUrl: https://goinfinite.github.io/os-marketplace/app/umami/assets/avatar.png
