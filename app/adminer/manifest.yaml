@@ -1,0 +1,13 @@
+manifestVersion: v1
+slugs:
+  - adminer
+name: Adminer
+type: app
+description: Adminer is a lightweight database management tool written in PHP, providing a simple and powerful interface for MySQL, PostgreSQL, SQLite, and more.
+registryImageAddress: docker.io/goinfinite/os:latest
+launchScript:
+  - os mktplace install -s adminer
+minimumCpuMillicores: 500
+minimumMemoryBytes: 536870912
+estimatedSizeBytes: 512000
+avatarUrl: https://goinfinite.github.io/os-marketplace/app/adminer/assets/avatar.png
