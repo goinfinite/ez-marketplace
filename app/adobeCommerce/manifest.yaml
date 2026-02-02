@@ -1,0 +1,16 @@
+manifestVersion: v1
+slugs:
+  - adobeCommerce
+  - adobe-commerce
+  - magento2
+  - mage2
+name: Adobe Commerce
+type: app
+description: Adobe Commerce is a commerce platform that lets you create uniquely personalized B2B and B2C experiences, no matter how many brands you have. At least 2GB of RAM is required to run Adobe Commerce.
+registryImageAddress: docker.io/goinfinite/os:latest
+launchScript:
+  - os mktplace install -s adobeCommerce -f "adminUsername:%randomUsername%" -f "adminPassword:%randomPassword%" -f "adminFirstName:Infinite" -f "adminLastName:OS" -f "adminEmail:%randomMail%"
+minimumCpuMillicores: 1000
+minimumMemoryBytes: 2147483648
+estimatedSizeBytes: 779091968
+avatarUrl: https://goinfinite.github.io/os-marketplace/app/adobeCommerce/assets/avatar.jpg
