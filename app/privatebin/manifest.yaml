@@ -1,0 +1,15 @@
+manifestVersion: v1
+slugs:
+  - PrivateBin
+  - privatebin
+  - privbin
+name: PrivateBin
+type: app
+description: PrivateBin is a minimalist, open-source online pastebin where the server has zero knowledge of pasted data. It features end-to-end encryption, self-destruction of pastes, and a simple, user-friendly interface.
+registryImageAddress: docker.io/goinfinite/os:latest
+launchScript:
+  - os mktplace install --slug privatebin
+minimumCpuMillicores: 500
+minimumMemoryBytes: 536870912
+estimatedSizeBytes: 3331599
+avatarUrl: https://goinfinite.github.io/os-marketplace/app/privatebin/assets/avatar.jpg
