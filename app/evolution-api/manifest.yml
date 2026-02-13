@@ -1,0 +1,13 @@
+manifestVersion: v1
+slugs:
+  - evolution-api
+name: Evolution API
+type: app
+description: Evolution API is an open-source WhatsApp integration API that supports multiple messaging services. It provides a RESTful API for WhatsApp Web control using the Baileys library, with integrations for Typebot, Chatwoot, Dify, OpenAI, and more.
+registryImageAddress: docker.io/goinfinite/os:latest
+launchScript:
+  - os mktplace install --slug evolution-api
+minimumCpuMillicores: 1000
+minimumMemoryBytes: 4294967296
+estimatedSizeBytes: 1025019870
+avatarUrl: https://goinfinite.github.io/os-marketplace/app/evolution-api/assets/avatar.png
