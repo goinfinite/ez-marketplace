@@ -1,0 +1,13 @@
+manifestVersion: v1
+slugs:
+  - typebot
+name: Typebot
+type: app
+description: Typebot is a powerful open-source chatbot builder that you can self-host. Create advanced conversational forms and chatbots with 34+ building blocks including text, images, videos, conditional logic, webhooks, OpenAI integration, and more.
+registryImageAddress: docker.io/goinfinite/os:latest
+launchScript:
+  - os mktplace install --slug typebot --data-fields 'adminMailAddress:%randomMail%' --data-fields 'builderSubdomain:builder' --data-fields 'smtpHost:smtp.example.com' --data-fields 'smtpPort:587' --data-fields 'smtpUsername:noreply@example.com' --data-fields 'smtpPassword:%randomPassword%' --data-fields 'smtpFrom:%randomMail%'
+minimumCpuMillicores: 4000
+minimumMemoryBytes: 8589934592
+estimatedSizeBytes: 6147702683
+avatarUrl: https://goinfinite.github.io/os-marketplace/app/typebot/assets/avatar.png
